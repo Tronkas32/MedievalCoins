@@ -1,0 +1,77 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperPiece",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_piece"
+    },
+    {
+      "name": "Coins",
+      "type": "villagertrade",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coins"
+    },
+    {
+      "name": "SilverPiece",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_piece"
+    },
+    {
+      "name": "GoldPiece",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_piece"
+    },
+    {
+      "name": "PlatinumPiece",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_piece"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.medieval_coins.silver_piece": "Silver Piece",
+      "item.medieval_coins.gold_piece": "Gold Piece",
+      "item.medieval_coins.platinum_piece": "Platinum Piece",
+      "item.medieval_coins.copper_piece": "Copper Piece"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "medieval_coins",
+    "modName": "Medieval Coins",
+    "version": "1.0.0",
+    "author": "diego, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.medievalcoins",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
