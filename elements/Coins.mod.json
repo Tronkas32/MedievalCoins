@@ -22,8 +22,8 @@
             },
             "countOffer": 10,
             "level": 1,
-            "maxTrades": 10,
-            "xp": 5,
+            "maxTrades": 16,
+            "xp": 2,
             "priceMultiplier": 0.05
           },
           {

@@ -26,7 +26,7 @@ public class CoinsTrade {
 	public static void registerTrades(VillagerTradesEvent event) {
 		Int2ObjectMap<List<VillagerTrades.ITrade>> trades = event.getTrades();
 		if (event.getType() == VillagerProfession.ARMORER) {
-			trades.get(1).add(new BasicTrade(new ItemStack(Items.COAL, (int) (15)), new ItemStack(SilverPieceItem.block, (int) (10)), 10, 5, 0.05f));
+			trades.get(1).add(new BasicTrade(new ItemStack(Items.COAL, (int) (15)), new ItemStack(SilverPieceItem.block, (int) (10)), 16, 2, 0.05f));
 			trades.get(1).add(new BasicTrade(new ItemStack(GoldPieceItem.block, (int) (26)), new ItemStack(SilverPieceItem.block, (int) (6)),
 					new ItemStack(Items.IRON_HELMET), 5, 5, 0.05f));
 			trades.get(1).add(new BasicTrade(new ItemStack(PlatinumPieceItem.block, (int) (8)), new ItemStack(Items.IRON_CHESTPLATE), 5, 5, 0.05f));
